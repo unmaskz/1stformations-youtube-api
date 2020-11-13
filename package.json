@@ -1,0 +1,22 @@
+{
+  "name": "1stformations-youtube-api",
+  "version": "1.0.0",
+  "description": "Fetches YouTube videos from 1st Formations channel.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Kieran White <kwhite@myself.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.6"
+  }
+}
